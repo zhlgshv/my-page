@@ -44,6 +44,7 @@ header{
     transform: scale(1.2) translateY(-25px);
 }
 .my-page-text{
+    position: relative;
     margin: 0 auto;
 }
 .title{
@@ -128,6 +129,23 @@ header{
     .container{
         width: 640px;
     }
+    .my-page{
+        flex-wrap: wrap;
+    }
+    .my-page-photo{
+        margin: 0 auto;
+    }
+    .my-page-text{
+        text-align: center;
+    }
+    .subtitle{
+        margin: 7px 0;
+    }
+    .drop{
+        margin: 15px 0;
+        position: relative;
+        justify-content: center;
+    }
 }
 @media (max-width:660px){
     .container{
@@ -147,5 +165,9 @@ header{
 @media (max-width:360px){
     .container{
         width: 240px;
+    }
+    .my-page-photo{
+        width: 240px;
+        height: 240px;
     }
 }
